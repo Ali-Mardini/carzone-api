@@ -15,7 +15,10 @@ namespace carzone_api.Controllers
     [ApiController]
     public class BookController : ControllerBase
     {
-
+        /// <summary>
+        /// Method to get all bookings
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("booking")]
         public IActionResult GetAllBooks()
         {
