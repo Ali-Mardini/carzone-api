@@ -44,7 +44,7 @@ namespace carzone_api.Controllers
             }
         }
 
-        [HttpPost("book")]
+        [HttpPost("new-booking")]
         public IActionResult BookAnAppointment([FromBody] BookDTO bookingPayload)
         {
             try
