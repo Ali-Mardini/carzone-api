@@ -9,10 +9,12 @@
     <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
     <None Remove="Models\" />
     <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="Microsoft.AspNet.Identity.Core" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.5" />
+    <PackageReference Include="Microsoft.AspNet.Identity.Core" Version="2.2.3" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />

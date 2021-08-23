@@ -60,7 +60,7 @@ namespace carzone_api.Controllers
                 jsonData = JsonConvert.SerializeObject(bookingList);
                 System.IO.File.WriteAllText("api.json", jsonData);
 
-                return Ok(new { success = true, response = "Your book have been recevied!"});
+                return Ok(new { success = true, response = "Your book have been recevied!" });
             }
             catch (Exception ex)
             {
